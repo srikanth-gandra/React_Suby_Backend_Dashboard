@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import NavBar from '../components/NavBar'
+import Navbar from '../components/Navbar'
 import SideBar from '../components/SideBar'
 import Login from '../components/forms/Login'
 import Register from '../components/forms/Register'
@@ -121,7 +121,7 @@ const LandingPage = () => {
     return (
         <>
             <section className='landingSection'>
-                <NavBar showLoginHandler={showLoginHandler} showRegisterHandler={showRegisterHandler}
+                <Navbar showLoginHandler={showLoginHandler} showRegisterHandler={showRegisterHandler}
                     showLogOut={showLogOut}
                     logOutHandler={logOutHandler}
                 />
